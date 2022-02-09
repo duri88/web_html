@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+/*font-family: 'Poiret One', cursive;*/
+
+
+*{box-sizing: border-box;}
+body {font-family: 'Poiret One', cursive;}
+
+
+#header {width: 15%; height: 100%;
+    position: fixed; left: 0; top: 0;
+    background-color: #fff;
+}
+#header h1 {width: 180px; height: 134px; margin-left: -90px;
+    position: absolute; left: 50%; top: 50px;
+}
+#header h1 a {width: 18px; height: 134px; display: block;
+    background-image: url(../imgs/logo_netflix.png);
+    text-indent: -9999px;
+}
+#gnb {width: 150px;
+    position: absolute; right: 20px; top: 300px;
+}
+#gnb li {line-height: 50px;}
+#gnb a {display: block;
+    color: #000; font-weight: bold;
+}
+
+
+#header .sns {width: 90px; margin-right: -45px;
+    position: absolute; right: 50%; bottom: 50px;
+}
+#header .sns ul {width: 90px;}
+#header .sns li {float: left; padding-right:1px}
+#header .sns a { font-size: 11px; font-weight: bold;}
+#header .sns div {width: 90px;}
+#header .sns div a {float: left;}
+
+
+#bar {width: 85%; height: 50px; margin-left: 15%;
+    background-color: #212121;
+}
+#bar article:first-child {float: left; }
+#bar article:last-child {float: right; padding-right:30px;}
+#bar article a {float: left; padding-top: 13px; color: #fff; padding-left:30px;}
+
+#container {width: 85%; overflow: hidden; margin-left: 15%;
+}
+
+#container article {width: 20%; height: 250px; float: left;
+    background-size: cover; background-position: center;
+}
+
+#container article h1 {opacity: 0;
+    transition: all 0.5s;
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+#container article:hover h1 {opacity: 1;
+    transform: scale(1);
+}
+#container article p {opacity: 0;
+    transition: all 0.5s;
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+#container article:hover p {opacity: 1;
+    transform: scale(1);
+}
+
+#container article:nth-child(1) {width: 60%; height: 500px;
+    background-image: url(../imgs/game1.gif);
+}
+#container article:nth-child(2) {width: 40%;
+    background: url(../imgs/myname.jpeg) no-repeat 0 0;
+    color: #fff; text-align: right; font-size: 20px;
+}
+#container article:nth-child(2) h1 {font-size: 30px}
+
+#container article:nth-child(3) {
+    background: url(../imgs/hometown.jpeg) no-repeat 0 0;
+}
+#container article:nth-child(3) h1 {color: #fff; font-size: 24px; padding: 20px; padding-top:170px;}
+#container article:nth-child(4) {background: url(../imgs/you.jpeg) no-repeat 0 0;}
+#container article:nth-child(4) h1 {padding-top: 200px;
+    text-align: right; font-size: 24px; color: #fff;
+}
+#container article:nth-child(5) {background: url(../imgs/forgottenbattle.jpeg) no-repeat center 0;}
+#container article:nth-child(5) h1 {padding: 200px 0 0 20px;
+    color: #fff;
+}
+#container article:nth-child(6) {width: 40%;
+    background: url(../imgs/bridgerton.jpg) no-repeat center 0;
+}
+#container article:nth-child(6) h1 {padding-top:10px; padding-left:300px;
+    color: #fff;
+}
+#container article:nth-child(6) p {padding-top:5px; padding-left:300px;
+    color: #fff;
+}
+#container article:nth-child(7) {background: url(../imgs/dp.jpeg) no-repeat center 0;}
+#container article:nth-child(7) h1 {padding: 10px 10px 0 0;
+    text-align: right; color: #fff; font-size: 20px;
+}
+#container article:nth-child(8) {background: url(../imgs/emilyinparis.jpeg) no-repeat center 0;}
+#container article:nth-child(8) h1 {padding: 210px 10px 0 0;
+    text-align: right; color: #fff; font-size: 22px;
+}
+#container article:nth-child(9) {width: 40%;
+    background: url(../imgs/paper.jpeg) no-repeat center 0;
+}
+#container article:nth-child(9) h1 {padding: 210px 0 0 5px;
+    color: #fff; font-size: 22px;
+}
+#container article:nth-child(10) {background: url(../imgs/kingdom.jpg) no-repeat 0 0;}
+#container article:nth-child(10) {padding: 170px 30px 0 0;
+    color: #fff; font-size: 22px; text-align: right;
+}
+#container article:nth-child(10) p {font-size: 18px}
+#container article:nth-child(11) {background: url(../imgs/reasonwhy.jpg) no-repeat center 0;
+    text-align: center; font-size: 22px; font-weight: bold; color: #fff;
+}
+#container article:nth-child(11) h1 {padding-top: 10px;}
+#container article:nth-child(12) {background: url(../imgs/elite.jpg) no-repeat 0 0;}
+#container article:nth-child(12) h1 {padding: 200px 10px 0 0;
+    text-align: right; font-size: 22px; color: #fff;
+}
+
+#bar2{width: 100%; height: 100px; 
+    background-color: #212121; color: #fff;
+    padding-top:17px; font-size:12px;
+    padding-left: 30px;
+}
+
+
+
+@media screen and (min-width:1101px) and (max-width:1500px) {
+    #header {width: 100%; height: 80px;
+        position: relative; left: 0; top: 0;
+    }
+    #header h1 {width: 119px; height: 50px; margin-left: 0;
+        left: 25px; top: 20px;
+    }
+    #header h1 a {width: 120px; height: 55px;
+        background-image: url(../imgs/logo_netflix.png);
+        margin-top:-8px;
+    }
+    
+    #gnb {width: 600px; 
+        right: 150px; top: 20px;
+    }
+    #gnb ul {}
+    #gnb li {width: 150px; height: 40px; float: left;
+        line-height: 0;
+    }
+    #gnb a {width: 100%; height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+
+    #header .sns {margin-right: 0;
+        right: 30px; bottom: 16px;
+    }
+    
+    #bar {width: 100%; height: 50px; margin-left: 0;}
+
+    #container {width: 100%; margin-left: 0;}
+}
+
+@media screen and (min-width:641px) and (max-width:1100px) {
+    #header {width: 100%; height: 120px;
+        position: relative; left: 0; top: 0;
+    }
+    #header h1 {width: 119px; height: 50px; margin: 0 auto;
+        position: relative; left: 0; top: 0;
+    }
+    #header h1 a {width: 119px; height: 50px;
+        background-image: url(../imgs/logo_netflix.png);
+    }
+    
+    #gnb {width: 100%; margin: 0 auto;
+        position: relative; right: 0; top: 20px;
+    }
+    #gnb ul {}
+    #gnb li {width: 25%; height: 40px; float: left;
+        line-height: 0; text-align: center;
+    }
+    #gnb a {width: 100%; height: 40px;
+        line-height: 40px;
+    }
+
+
+    #header .sns {display: none;}
+    
+    #bar {width: 100%; margin-left: 0;}
+    #container {width: 100%; margin-left: 0;}
+    
+    #container article {width: 50%; height: 250px;}
+    #container article:nth-child(1) {width: 100%; height: 500px;}
+    #container article:nth-child(2) {width: 50%;}
+    #container article:nth-child(3) {display: none;}
+    #container article:nth-child(4) {background: url(../imgs/you2.jpg) no-repeat center 0;}
+    #container article:nth-child(5) {background: url(../imgs/forgottenbattle3.jpg) no-repeat center 0;}
+    #container article:nth-child(6) {display: none;}
+    #container article:nth-child(7) {background: url(../imgs/dp2.jpg) no-repeat center 0;}
+    #container article:nth-child(8) {background: url(../imgs/emilyinparis2.jpg) no-repeat center 0;}
+    #container article:nth-child(9) {display: none;}
+    #container article:nth-child(10) {background: url(../imgs/kingdom2.jpg) no-repeat center 0;}
+    #container article:nth-child(11) {display: none;}
+    #container article:nth-child(12) {display: none;}
+    
+    
+}
+
+
+@media screen and (max-width:640px) {
+    #header {width: 100%; height: 120px;
+        position: relative; left: 0; top: 0; z-index: 100;
+        background-color: transparent;
+    }
+    #header h1 {width: 180px; height: 134px; margin: 0 auto;
+        position: relative; left: 0; top:30px;
+    }
+    #header h1 a {width: 110px; height: 50px; 
+        background-image: url(../imgs/logo_netflix.png);
+    }
+    
+    #gnb {width: 100%; margin: 0 auto;
+        position: relative; right: 0; top: 20px;
+    }
+    #gnb ul {}
+    #gnb li {width: 100%; height: 40px; float: none; margin-bottom: 10px;
+        line-height: 0; text-align: center;
+    }
+    #gnb a {width: 300px; height: 40px; margin: 0 auto;
+        line-height: 40px;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 10px;
+    }
+    #gnb a:hover {background-color: rgba(0,0,0,0.5);
+        color: #fff;
+    }
+
+
+    #header .sns {display: none;}
+    
+    #bar {display: none;}
+    #container {width: 100%; margin-left: 0;}
+    
+    #container article {display: none;}
+    #container article:nth-child(1) {width: 100%; height: 100%; display: block;
+        position: fixed; left: 0; top: 0;
+    }
+    #container article:nth-child(1) h1 {display: none;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
