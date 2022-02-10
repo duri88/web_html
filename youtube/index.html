@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Mobile</title>
+    <script src="https://kit.fontawesome.com/a5c3308086.js" crossorigin="anonymous"></script>
+    <script defer src="main.js" defer></script>
+</head>
+<body>  
+    <!-- header-->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+    <!-- video -->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!-- Video info-->
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Newzealnad</li>
+                <li>#Queenstown</li>
+                <li>#travle</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp">
+                    뉴질랜드 남섬 오타고 지방의  내륙, 와카티푸 호수 기슭에 위치한 도시이다. 
+                    주변의 산들에 둘러싸여 그 아름다움이 빅토리아 여왕에 어울리는 라고 이름을 붙여진 것에서 유래한다. 
+                    세계적으로 유명한 관광, 휴양지이다.
+                </span>
+                <button class="moreBtn clicked">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">1M views 1 month ago</span>
+        </div>
+        <!--Actions-->
+        <ul class="actions">
+            <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+        </ul>
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="meatadata">
+                <img src="image/avatar.png" alt="">
+                <div class="info">
+                    <span class="name">NZ</span>
+                    <span class="subscribers">1M subscriibers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <section class="upNext">
+        <span class="title">Up next</span> 
+        <ul>
+            <li class="item">
+                <div class="img"><img src="image/1.png" alt=""></div>
+                <div class="info">
+                    <span class="title">Aukland New Zealand Travel Tour 4K</span>
+                    <span class="name">Island Hopper TV</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/2.png" alt=""></div>
+                <div class="info">
+                    <span class="title">Queenstown Vacation Travel Guide | Expedia</span>
+                    <span class="name">Expedia</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/3.png" alt=""></div>
+                <div class="info">
+                    <span class="title">New zealand: THe Ultimate Travel Guide by TourRadar </span>
+                    <span class="name">TourRadar</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+    </div>
+
+    
+</body>
+</html>
