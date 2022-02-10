@@ -97,9 +97,9 @@ position: absolute; right:0;}
 .mywork1 .inner .works:last-child{margin-right: 0;}
 .mywork1 .inner .works>div{box-sizing: border-box;position: relative; overflow: hidden; background: #fbfbfb;}
 .banner1, .banner2, .banner3{width: 100%; height: 100%;}
-.mywork1 .inner .works .banner1{background: url(/img/nex_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
-.mywork1 .inner .works .banner2{background: url(/img/you_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
-.mywork1 .inner .works .banner3{background: url(/img/gentle_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
+.mywork1 .inner .works .banner1{background: url(../img/nex_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
+.mywork1 .inner .works .banner2{background: url(../img/you_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
+.mywork1 .inner .works .banner3{background: url(../img/gentle_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
 
 .caption{position: absolute; top:100px; width: 100%; height: 100%;background:rgba(174, 104, 254, 0.5);opacity: 0; transition: all 0.3s cubic-bezier(.42, 0, .58, 1); z-index: 10;}
 .caption .caption_wrap{position: relative; width: 100%; height: 100%;}
