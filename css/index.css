@@ -162,7 +162,10 @@ position: absolute; right:0;}
     .mywork1 .inner .pjt_name{padding-top:20%;}
     .mywork1 .inner .works .banner2 .pjt_name{padding-top: 15%;}
     .mywork1 .inner .works{width: 100%; height:30.6122vw; float: none; background-position: center bottom;}
-    .mywork1 .inner .works .banner2{height: 40.8163vw; margin-bottom: 3%; float: left; background: url(../img/banner2_resize.png); background-position: center;}
+    .mywork1 .inner .works .banner2{height: 40.8163vw; margin-bottom: 3%; float: left; background: url(../img/nex_mock.png); background-position: center;}
+    .mywork1 .inner .works .banner2{height: 40.8163vw; margin-bottom: 3%; float: left; background: url(../img/you_mock.png); background-position: center;}
+    .mywork1 .inner .works .banner2{height: 40.8163vw; margin-bottom: 3%; float: left; background: url(../img/gentle_mock.png); background-position: center;}
+
     .pop_base .color{margin: 10px auto;}
     .caption{position: absolute; top:0px; width: 100%; height: 100%;background:rgba(41, 40, 40, 0.62);opacity: 1;}
     .mywork1 .inner .works > div:hover .caption{transform: none;}
@@ -181,7 +184,6 @@ position: absolute; right:0;}
     .profile_wrap p{font-size: 12px; color:#4e4e4e; line-height: 18px;}
     .con_wrap .bar1, .bar2, .bar3 { display:block; width:70px; height:32px; border-left:6px solid #72726c; border-top:1px solid #72726c;
         position: absolute; left:140px;} 
-        
     .mywork1{height: auto;}
     .mywork1 .inner .works > div{width: 100%;float: left; margin: 0; margin-bottom: 3%;min-height: 200px;}
     .mywork1 .inner .pjt_name{padding: 10% 0; height: 20%;}
