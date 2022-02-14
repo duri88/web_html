@@ -187,7 +187,9 @@ position: absolute; right:0;}
     .mywork1{height: auto;}
     .mywork1 .inner .works > div{width: 100%;float: left; margin: 0; margin-bottom: 3%;min-height: 200px;}
     .mywork1 .inner .pjt_name{padding: 10% 0; height: 20%;}
-    .mywork1 .inner .works .banner2{margin-top: 3%; width: 100%;float: left; margin: 0;margin-bottom: 3%; height:30.6122vw; min-height: 200px;}
+    .mywork1 .inner .works .banner1{margin-top: 3%; width: 100%;float: left; margin: 0;margin-bottom: 3%; height:30.6122vw; min-height: 200px; background: url(../img/nex_mock.png); background-position: center;}
+    .mywork1 .inner .works .banner2{margin-top: 3%; width: 100%;float: left; margin: 0;margin-bottom: 3%; height:30.6122vw; min-height: 200px; background: url(../img/you_mock.png); background-position: center;}  
+    .mywork1 .inner .works .banner3{margin-top: 3%; width: 100%;float: left; margin: 0;margin-bottom: 3%; height:30.6122vw; min-height: 200px; background: url(../img/gentle_mock.png); background-position: center;}
     .mywork1 .inner .works .banner2 .pjt_name{padding:10% 0;}
     .pop_base .banner_text p{font-size: 18px;}
     .pop_base .banner_text .banner_descript{font-size: 12px; line-height: 1.6;}
