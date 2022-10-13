@@ -101,7 +101,7 @@ position: absolute; right:0;}
 .mywork1 .inner .works .banner2{background: url(../img/you_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
 .mywork1 .inner .works .banner3{background: url(../img/gentle_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
 
-.caption{position: absolute; top:100px; width: 100%; height: 100%;background:rgba(174, 104, 254, 0.5);opacity: 0; transition: all 0.3s cubic-bezier(.42, 0, .58, 1); z-index: 10;}
+.caption{position: absolute; top:100px; width: 100%; height: 72%;background:rgba(174, 104, 254, 0.5);opacity: 0; transition: all 0.3s cubic-bezier(.42, 0, .58, 1); z-index: 10;}
 .caption .caption_wrap{position: relative; width: 100%; height: 100%;}
 .bd_line{box-sizing: border-box; border: 2px solid #fff; width: 95%; height: 95%; margin: auto; position: absolute; top:2.5%; left: 2.5%;}
 .mywork1 .inner .works > div:hover .caption{opacity: 1; transform: translateY(-100px);}
