@@ -90,7 +90,7 @@ progress::-webkit-progress-bar {background: #bcbcbc;}
 position: absolute; right:0;} 
 
 .mywork1{
-    height: 800px; background: #fff; width: 100%; box-shadow: 0px 10px 15px rgb(203 203 203 / 18%); padding-bottom: 5%;}
+    height:600px; background: #fff; width: 100%; box-shadow: 0px 10px 15px rgb(203 203 203 / 18%); padding-bottom: 9%;}
 .mywork1 .inner{max-width: 1440px; margin: 0 auto; min-width: 300px;}
 .mywork1 .inner .works{width:32%; height: 540px;float: left; margin-right: 2%; }
 .mywork1 .inner .works>div{ background: #ffc5c5;}
@@ -101,7 +101,7 @@ position: absolute; right:0;}
 .mywork1 .inner .works .banner2{background: url(../img/you_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
 .mywork1 .inner .works .banner3{background: url(../img/gentle_mock.png) no-repeat;  background-position: center top;  background-size: contain;}
 
-.caption{position: absolute; top:100px; width: 100%; height: 72%;background:rgba(174, 104, 254, 0.5);opacity: 0; transition: all 0.3s cubic-bezier(.42, 0, .58, 1); z-index: 10;}
+.caption{position: absolute; top:100px; width:100%; height: 90%;background:rgba(174, 104, 254, 0.5);opacity: 0; transition: all 0.3s cubic-bezier(.42, 0, .58, 1); z-index: 10;}
 .caption .caption_wrap{position: relative; width: 100%; height: 100%;}
 .bd_line{box-sizing: border-box; border: 2px solid #fff; width: 95%; height: 95%; margin: auto; position: absolute; top:2.5%; left: 2.5%;}
 .mywork1 .inner .works > div:hover .caption{opacity: 1; transform: translateY(-100px);}
@@ -117,7 +117,10 @@ position: absolute; right:0;}
 .caption .more_btn div:last-child{display: none;}
 
 
-
+/*mywork 2*/
+.mywork2{width: 70%;margin:auto; overflow: hidden; background-color: #fff; height: 3000px;box-shadow: 0px 10px 15px rgb(203 203 203 / 18%);padding-bottom: 9%; }
+.images{ width: 100%; height: auto;}
+.images img { width: 100%; height: 100%; object-fit: contain;}
 
 
 
@@ -156,7 +159,7 @@ position: absolute; right:0;}
         position: absolute; left:270px;} 
         
     .about .detail{margin:0;}
-    .mywork1{height: auto;}
+    .mywork1, .mywork2{height: auto;}
     .mywork1 .inner{margin: 0 5%;}
     .caption .more_btn{margin: 10px auto;}
     .mywork1 .inner .pjt_name{padding-top:20%;}
@@ -209,7 +212,26 @@ position: absolute; right:0;}
 
 
 
-
+@media (min-width: 640px) {
+    .mywork2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      grid-auto-flow: row dense;
+    }
+    .imageFlex1 {
+      display: grid;
+      row-gap: 20px;
+    }
+    .imageFlex2 {
+      display: grid;
+      row-gap: 20px;
+    }
+    .imageFlex3 {
+      display: grid;
+      row-gap: 20px;
+    }
+  }
 
 
 

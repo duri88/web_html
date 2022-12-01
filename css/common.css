@@ -30,10 +30,11 @@ header .mobile_gnb{position: absolute; top:20px; right: 5%; width: 43px; height:
 .humbermenu .copyright{font-size: 12px; color: #9c9c9c; position: absolute; bottom: 10%; left:0;right: 0;}
 .humbermenu_on{top: 0; left: 0;}
 
-footer{text-align: center; position: fixed; bottom: 0; left: 0; right: 0; z-index: -9;}
+/*footer{text-align: center; position: fixed; bottom: 0; left: 0; right: 0; z-index: -9;}*/
+footer{text-align: center;}
 footer .contact{height: auto; max-height: 400px; }
-footer .label{height: 70px; background: #393939; width: 100%;}
-footer .label p{color: #9c9c9c; line-height: 70px; font-size: 12px;}
+footer .label{height: 112px; background: #393939; width: 100%;}
+footer .label p{color: #9c9c9c; line-height: 112px; font-size: 12px;}
 footer .message{width: 184px; height: 32px; border: 1px solid #9d9d9d;color:#9d9d9d; margin: 2%;}
 footer .message:hover{background: #ae68fe; color: #fff;border: none;}
 footer .wrapper { margin-bottom: 30px;}
